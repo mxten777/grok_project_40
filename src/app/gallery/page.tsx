@@ -42,8 +42,8 @@ export default function GalleryPage() {
             <div className="flex items-center space-x-4 group">
               <div className="w-16 h-16 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden bg-gradient-to-br from-white/20 to-white/5 border border-white/20 group-hover:scale-110 transition-all duration-500">
                 <Image
-                  src="/samkwang_logo.svg"
-                  alt="삼광 로고"
+                  src="/osan_logo.svg"
+                  alt="오산고 로고"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
@@ -51,7 +51,7 @@ export default function GalleryPage() {
               </div>
               <div className="group-hover:translate-x-1 transition-transform duration-300">
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-white via-green-200 to-teal-200 bg-clip-text text-transparent leading-tight drop-shadow-lg">
-                  삼광 30회
+                  오산고 71회
                 </h1>
                 <p className="text-sm text-green-200 font-medium opacity-90">송년회</p>
               </div>

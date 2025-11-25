@@ -1,10 +1,10 @@
-# 삼광 30회 송년회 웹사이트
+# 오산고 71회 송년회 웹사이트
 
 <div align="center">
 
-![삼광 30회 송년회](https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop)
+![오산고 71회 송년회](https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop)
 
-**2025년 삼광 30회 송년회 공식 웹사이트**
+**2025년 오산고 71회 송년회 공식 웹사이트**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.0.4-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.0-blue)](https://reactjs.org/)
@@ -20,7 +20,7 @@
 
 ## 📋 프로젝트 개요
 
-삼광 30회 송년회 웹사이트는 2025년 삼광 동기들의 특별한 송년회를 위한 종합 디지털 플랫폼입니다. 현대적인 웹 기술을 활용하여 참석자들이 편리하게 정보를 확인하고 소통할 수 있는 환경을 제공합니다.
+오산고 71회 송년회 웹사이트는 2025년 오산고 동기들의 특별한 송년회를 위한 종합 디지털 플랫폼입니다. 현대적인 웹 기술을 활용하여 참석자들이 편리하게 정보를 확인하고 소통할 수 있는 환경을 제공합니다.
 
 ### 🎯 주요 목표
 - **디지털 초대장**: QR코드와 함께하는 현대적인 초대장 시스템
@@ -114,7 +114,7 @@
 ```
 grok_project_30/
 ├── public/                          # 정적 파일
-│   ├── samkwang_logo.svg           # 삼광 로고
+│   ├── osan_logo.svg           # 오산고 로고
 │   └── favicon.ico                 # 파비콘
 ├── src/
 │   ├── app/                        # Next.js App Router
@@ -152,21 +152,21 @@ grok_project_30/
 ```typescript
 export const siteConfig = {
   // 사이트 기본 정보
-  siteName: "2025년 삼광 30회 송년회",
-  shortName: "삼광30",
+  siteName: "2025년 오산고 71회 송년회",
+  shortName: "오산고71",
 
   // 이벤트 정보
   eventYear: 2025,
-  eventCount: "30회",
-  eventDate: "2025.12.5(금) 18:30 ~",
-  eventLocation: "이수역 속초 어시장",
+  eventCount: "71회",
+  eventDate: "2025.11.29(토) 14:00 ~",
+  eventLocation: "서울대입구역 꼬꼬닭갈비",
 
   // 참석비 및 계좌 정보
-  eventFee: "7만원",
+  eventFee: "무료",
   accountInfo: {
-    bank: "국민은행",
-    holder: "홍길동",
-    number: "123-456-789012"
+    bank: "",
+    holder: "",
+    number: ""
   },
 
   // 디자인 설정
@@ -178,12 +178,12 @@ export const siteConfig = {
   defaultProfileImage: "...",  // 기본 프로필 이미지
 
   // 기능 설정
-  dDayTargetDate: "2025-12-05T18:30:00",  // D-DAY 목표 날짜
+  dDayTargetDate: "2025-11-29T14:00:00",  // D-DAY 목표 날짜
   galleryYears: [...],        // 갤러리 연도별 데이터
   members: [...],             // 참석자 목록
 
   // 초대장 설정
-  invitationTitle: "삼광 30회 송년회 초대장",
+  invitationTitle: "오산고 71회 송년회 초대장",
   invitationMessage: "...",
   invitationImage: "..."
 };
@@ -406,16 +406,16 @@ npm run build
 
 ## 🙏 감사의 말
 
-이 프로젝트는 삼광 동기들의 소중한 추억을 위해 만들어졌습니다. 참여해주신 모든 분들께 감사드립니다.
+이 프로젝트는 오산고 동기들의 소중한 추억을 위해 만들어졌습니다. 참여해주신 모든 분들께 감사드립니다.
 
-**삼광 30회 송년회** - 함께하는 특별한 시간 ✨
+**오산고 71회 송년회** - 함께하는 특별한 시간 ✨
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by 삼광 동기들**
+**Made with ❤️ by 오산고 동기들**
 
-[⬆️ 맨 위로](#삼광-30회-송년회-웹사이트)
+[⬆️ 맨 위로](#오산고-71회-송년회-웹사이트)
 
 </div>

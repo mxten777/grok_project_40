@@ -80,8 +80,8 @@ export default function GuestbookPage() {
             <div className="flex items-center space-x-3">
               <div className="w-16 h-16 rounded-xl flex items-center justify-center shadow-lg overflow-hidden">
                 <Image
-                  src="/samkwang_logo.svg"
-                  alt="삼광 로고"
+                  src="/osan_logo.svg"
+                  alt="오산고 로고"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain"
@@ -89,7 +89,7 @@ export default function GuestbookPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-white to-pink-200 bg-clip-text text-transparent leading-tight">
-                  삼광 30회
+                  오산고 71회
                 </h1>
                 <p className="text-sm text-pink-200 font-medium">송년회</p>
               </div>

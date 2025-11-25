@@ -1,11 +1,11 @@
 {
-  "name": "삼광 30회 송년회",
-  "short_name": "삼광30",
-  "description": "2025년 삼광 30회 송년회 공식 웹사이트",
+  "name": "오산고 71회 송년회",
+  "short_name": "오산고71",
+  "description": "2025년 오산고 71회 송년회 공식 웹사이트",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#1e40af",
-  "theme_color": "#1e40af",
+  "background_color": "#059669",
+  "theme_color": "#059669",
   "orientation": "portrait-primary",
   "icons": [
     {

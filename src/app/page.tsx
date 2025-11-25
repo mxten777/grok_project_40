@@ -46,8 +46,8 @@ export default function Home() {
             <div className="flex items-center space-x-3 lg:space-x-4 group">
               <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden bg-gradient-to-br from-white/20 to-white/5 border border-white/20 group-hover:scale-110 transition-all duration-500">
                 <Image
-                  src="/samkwang_logo.svg"
-                  alt="삼광 로고"
+                  src="/osan_logo.svg"
+                  alt="오산고 로고"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               <div className="group-hover:translate-x-1 transition-transform duration-300">
                 <h1 className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight drop-shadow-lg">
-                  삼광 30회
+                  오산고 71회
                 </h1>
                 <p className="text-xs lg:text-sm text-purple-200 font-medium opacity-90">송년회</p>
               </div>
@@ -91,7 +91,7 @@ export default function Home() {
                 <div className="space-y-6">
                   <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-full border border-white/20">
                     <Star className="h-4 w-4 text-yellow-400 mr-2 animate-pulse" />
-                    <span className="text-sm font-medium text-white">삼광 30회 송년회</span>
+                    <span className="text-sm font-medium text-white">오산고 71회 송년회</span>
                   </div>
                   <h2 className="text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-white via-purple-200 via-pink-200 to-yellow-200 bg-clip-text text-transparent leading-tight animate-pulse">
                     {siteConfig.eventYear}년<br />
@@ -203,7 +203,7 @@ export default function Home() {
                   />
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="bg-black/30 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20">
-                      <p className="text-white text-sm font-medium text-center">삼광 동기들과의 특별한 시간 ✨</p>
+                      <p className="text-white text-sm font-medium text-center">오산고 동기들과의 특별한 시간 ✨</p>
                     </div>
                   </div>
                 </div>
