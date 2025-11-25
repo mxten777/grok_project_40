@@ -12,7 +12,7 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.4.17-38B2AC)](https://tailwindcss.com/)
 [![Vercel](https://img.shields.io/badge/Vercel-Deployed-black)](https://vercel.com/)
 
-[🌐 웹사이트 방문](https://grok-project-40-qy889a24i-dongyeol-jungs-projects.vercel.app) • [📱 모바일 최적화](https://grok-project-40-qy889a24i-dongyeol-jungs-projects.vercel.app) • [🚀 Vercel 배포](https://vercel.com/)
+[🌐 웹사이트 방문](https://grok-project-40-30e4muz3q-dongyeol-jungs-projects.vercel.app) • [📱 모바일 최적화](https://grok-project-40-30e4muz3q-dongyeol-jungs-projects.vercel.app) • [🚀 Vercel 배포](https://vercel.com/)
 
 </div>
 
