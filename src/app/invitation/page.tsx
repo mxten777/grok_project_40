@@ -94,7 +94,7 @@ export default function InvitationPage() {
                 <h1 className="text-4xl font-black bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight drop-shadow-2xl">
                   2025년
                 </h1>
-                <p className="text-lg text-purple-200 font-bold opacity-90">강둑송년회</p>
+                <p className="text-lg text-purple-200 font-bold opacity-90">강둑 송년회</p>
               </div>
             </div>
             <div className="inline-flex items-center px-6 py-3 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-full border border-white/30 mb-6">

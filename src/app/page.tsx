@@ -98,7 +98,7 @@ export default function Home() {
                     2025년
                   </h2>
                   <span className="text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
-                    강둑송년회
+                    강둑 송년회
                   </span>
                   <p className="text-lg lg:text-xl xl:text-2xl text-gray-200 leading-relaxed font-light">
                     오랜만에 동기들을 만나 함께 추억을 나누고<br />
