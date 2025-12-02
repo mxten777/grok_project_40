@@ -44,7 +44,7 @@ export default function InvitationPage() {
   };
 
   return (
-    <div className="bg-gradient-to-br from-indigo-900 via-purple-900 via-pink-900 to-yellow-900 relative overflow-hidden min-h-screen">
+    <div className="bg-gradient-to-br from-indigo-900 via-purple-900 to-yellow-900 relative overflow-hidden min-h-screen">
       {/* Enhanced Background Pattern */}
       <div className="absolute inset-0 opacity-40">
         <div className="absolute inset-0 bg-gradient-to-r from-indigo-500/20 via-purple-500/15 to-pink-500/20"></div>
@@ -83,8 +83,8 @@ export default function InvitationPage() {
             <div className="flex items-center justify-center space-x-4 mb-6">
               <div className="w-20 h-20 rounded-3xl flex items-center justify-center shadow-2xl overflow-hidden bg-gradient-to-br from-white/30 to-white/10 border-2 border-white/30 group-hover:scale-110 transition-all duration-500">
                 <Image
-                  src="/osan_logo.svg"
-                  alt="오산고 로고"
+                  src="/baikal_logo.png"
+                  alt="강둑 로고"
                   width={80}
                   height={80}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
@@ -92,7 +92,7 @@ export default function InvitationPage() {
               </div>
               <div className="text-left">
                 <h1 className="text-4xl font-black bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight drop-shadow-2xl">
-                  오산고 71회
+                  강둑
                 </h1>
                 <p className="text-lg text-purple-200 font-bold opacity-90">송년회</p>
               </div>
@@ -102,7 +102,7 @@ export default function InvitationPage() {
               <span className="text-lg font-bold text-white">초대장</span>
               <Sparkles className="h-5 w-5 text-yellow-400 ml-3 animate-spin" />
             </div>
-            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-white via-purple-200 via-pink-200 to-yellow-200 bg-clip-text text-transparent mb-4 animate-pulse leading-tight">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-black bg-gradient-to-r from-white via-purple-200 to-yellow-200 bg-clip-text text-transparent mb-4 animate-pulse leading-tight">
               따뜻한 마음으로<br />
               <span className="text-2xl sm:text-3xl lg:text-4xl">초대합니다</span>
             </h1>
@@ -143,7 +143,7 @@ export default function InvitationPage() {
                 <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-4 sm:p-4">
                   <Heart className="h-5 sm:h-5 w-5 sm:w-5 text-pink-400 mx-auto mb-3 sm:mb-3" />
                   <div className="text-sm sm:text-sm text-white text-center leading-relaxed">
-                    <p className="mb-2">오랜만에 오산고 동기들을 만나</p>
+                    <p className="mb-2">오랜만에 강둑 동기들을 만나</p>
                     <p className="mb-2">함께 추억을 나누고 새로운 인연을</p>
                     <p className="mb-2">만들어보는 시간을 갖고자 합니다.</p>
                     <p className="pt-2 font-bold">많은 참석 부탁드립니다. ✨</p>

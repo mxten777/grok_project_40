@@ -12,7 +12,7 @@ export default function Home() {
   const timeLeft = useCountdown(siteConfig.dDayTargetDate);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 via-indigo-900 to-slate-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
       {/* Enhanced Background Pattern */}
       <div className="absolute inset-0 opacity-30">
         <div className="absolute inset-0 bg-gradient-to-r from-purple-500/15 via-indigo-500/10 to-slate-500/15"></div>
@@ -46,8 +46,8 @@ export default function Home() {
             <div className="flex items-center space-x-3 lg:space-x-4 group">
               <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden bg-gradient-to-br from-white/20 to-white/5 border border-white/20 group-hover:scale-110 transition-all duration-500">
                 <Image
-                  src="/osan_logo.svg"
-                  alt="오산고 로고"
+                  src="/baikal_logo.png"
+                  alt="강둑 로고"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
@@ -55,7 +55,7 @@ export default function Home() {
               </div>
               <div className="group-hover:translate-x-1 transition-transform duration-300">
                 <h1 className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight drop-shadow-lg">
-                  오산고 71회
+                  강둑
                 </h1>
                 <p className="text-xs lg:text-sm text-purple-200 font-medium opacity-90">송년회</p>
               </div>
@@ -89,15 +89,13 @@ export default function Home() {
               {/* Left Content */}
               <div className="space-y-8 lg:space-y-10 order-2 lg:order-1">
                 <div className="space-y-6">
-                  <div className="inline-flex items-center px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-full border border-white/20">
-                    <Star className="h-4 w-4 text-yellow-400 mr-2 animate-pulse" />
-                    <span className="text-sm font-medium text-white">오산고 71회 송년회</span>
+                  <div className="inline-flex flex-col items-center px-4 py-2 bg-gradient-to-r from-purple-500/20 to-pink-500/20 backdrop-blur-sm rounded-full border border-white/20">
+                    <Star className="h-4 w-4 text-yellow-400 mb-1 animate-pulse" />
+                    <span className="text-sm font-medium text-white">2025년</span>
+                    <span className="text-sm font-bold text-white">강둑 송년회</span>
                   </div>
-                  <h2 className="text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-white via-purple-200 via-pink-200 to-yellow-200 bg-clip-text text-transparent leading-tight animate-pulse">
-                    {siteConfig.eventYear}년<br />
-                    <span className="text-4xl lg:text-5xl xl:text-6xl bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
-                      {siteConfig.eventCount} 송년회
-                    </span>
+                  <h2 className="text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-white via-purple-200 to-yellow-200 bg-clip-text text-transparent leading-tight animate-pulse">
+                    2025년 강둑 송년회
                   </h2>
                   <p className="text-lg lg:text-xl xl:text-2xl text-gray-200 leading-relaxed font-light">
                     오랜만에 동기들을 만나 함께 추억을 나누고<br />
@@ -203,7 +201,7 @@ export default function Home() {
                   />
                   <div className="absolute bottom-4 left-4 right-4">
                     <div className="bg-black/30 backdrop-blur-sm rounded-xl px-4 py-2 border border-white/20">
-                      <p className="text-white text-sm font-medium text-center">오산고 동기들과의 특별한 시간 ✨</p>
+                      <p className="text-white text-sm font-medium text-center">강둑 동기들과의 특별한 시간 ✨</p>
                     </div>
                   </div>
                 </div>
@@ -220,7 +218,7 @@ export default function Home() {
                 <Star className="h-4 w-4 text-blue-400 mr-2 animate-pulse" />
                 <span className="text-sm font-medium text-white">특별한 기능들</span>
               </div>
-              <h3 className="text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-white via-blue-200 via-purple-200 to-pink-200 bg-clip-text text-transparent mb-6 leading-tight">
+              <h3 className="text-4xl lg:text-5xl xl:text-6xl font-bold bg-gradient-to-r from-white via-blue-200 to-pink-200 bg-clip-text text-transparent mb-6 leading-tight">
                 함께하는<br />
                 <span className="text-3xl lg:text-4xl xl:text-5xl">특별한 순간들</span>
               </h3>

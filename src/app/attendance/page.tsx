@@ -30,7 +30,7 @@ export default function AttendancePage() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 via-purple-900 to-slate-900 relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-indigo-900 to-slate-900 relative overflow-hidden">
       {/* Premium Background Pattern */}
       <div className="absolute inset-0 opacity-35">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-500/20 via-indigo-500/15 to-purple-500/20"></div>
@@ -54,8 +54,8 @@ export default function AttendancePage() {
             <div className="flex items-center space-x-4 group">
               <div className="w-16 h-16 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden bg-gradient-to-br from-white/20 to-white/5 border border-white/20 group-hover:scale-110 transition-all duration-500">
                 <Image
-                  src="/osan_logo.svg"
-                  alt="오산고 로고"
+                  src="/baikal_logo.png"
+                  alt="강둑 로고"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
@@ -63,9 +63,9 @@ export default function AttendancePage() {
               </div>
               <div className="group-hover:translate-x-1 transition-transform duration-300">
                 <h1 className="text-3xl font-bold bg-gradient-to-r from-white via-blue-200 to-indigo-200 bg-clip-text text-transparent leading-tight drop-shadow-lg">
-                  오산고 71회
+                  2025년
                 </h1>
-                <p className="text-sm text-blue-200 font-medium opacity-90">송년회</p>
+                <p className="text-3xl text-blue-200 font-bold opacity-90">강둑 송년회</p>
               </div>
             </div>
             <nav className="hidden md:flex space-x-2">

@@ -1,10 +1,10 @@
 export const siteConfig = {
-  siteName: "2025년 오산고등학교 71회 동기송년회",
-  shortName: "오산고71",
+  siteName: "2025년 강둑 송년회",
+  shortName: "강둑",
   eventYear: 2025,
-  eventCount: "71회",
-  eventDate: "2025.11.29(토) 14:00 ~ 17:00",
-  eventLocation: "서울대입구역 꼬꼬닭갈비",
+  eventCount: "",
+  eventDate: "2025.12.10(수) 14:00 ~",
+  eventLocation: "사당역 10번 출구 제키당구클럽",
   eventFee: "무료",
   accountInfo: {
     bank: "",
@@ -19,7 +19,7 @@ export const siteConfig = {
     "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&h=800&fit=crop"
   ],
   defaultProfileImage: "https://picsum.photos/100/100?random=profile",
-  dDayTargetDate: "2025-11-29T14:00:00",
+  dDayTargetDate: "2025-12-10T14:00:00",
   galleryYears: [
     {
       year: 2025,
@@ -49,7 +49,7 @@ export const siteConfig = {
     "박민수",
     "정수진"
   ],
-  invitationTitle: "오산고등학교 71회 동기송년회 초대장",
-  invitationMessage: "오랜만에 오산고 동기들을 만나 함께 추억을 나누고 새로운 인연을 만들어보는 시간을 갖고자 합니다. 많은 참석 부탁드립니다.",
+  invitationTitle: "2025년 강둑 송년회 초대장",
+  invitationMessage: "오랜만에 강둑 동기들을 만나 함께 추억을 나누고 새로운 인연을 만들어보는 시간을 갖고자 합니다. 많은 참석 부탁드립니다.",
   invitationImage: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=600&h=400&fit=crop"
 };

@@ -30,7 +30,7 @@ function hexToHsl(hex: string): string {
 export const metadata: Metadata = {
   title: siteConfig.siteName,
   description: `${siteConfig.eventYear}년 ${siteConfig.eventCount} 송년회 공식 웹사이트입니다. ${siteConfig.eventDate}에 ${siteConfig.eventLocation}에서 열리는 따뜻한 송년의 밤에 초대합니다.`,
-  keywords: ["송년회", "오산고", "동기회", "모임", "파티", siteConfig.shortName, "2025"],
+  keywords: ["송년회", "강둑", "동기회", "모임", "파티", siteConfig.shortName, "2025"],
   authors: [{ name: siteConfig.shortName }],
   creator: siteConfig.shortName,
   publisher: siteConfig.shortName,

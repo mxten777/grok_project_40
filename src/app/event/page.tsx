@@ -27,8 +27,8 @@ export default function EventPage() {
             <div className="flex items-center space-x-3">
               <div className="w-16 h-16 rounded-xl flex items-center justify-center shadow-lg overflow-hidden">
                 <Image
-                  src="/osan_logo.svg"
-                  alt="오산고 로고"
+                  src="/baikal_logo.png"
+                  alt="강둑 로고"
                   width={64}
                   height={64}
                   className="w-full h-full object-contain"
@@ -36,9 +36,9 @@ export default function EventPage() {
               </div>
               <div>
                 <h1 className="text-2xl font-bold bg-gradient-to-r from-white to-orange-200 bg-clip-text text-transparent leading-tight">
-                  오산고 71회
+                  2025년
                 </h1>
-                <p className="text-sm text-orange-200 font-medium">송년회</p>
+                <p className="text-2xl text-orange-200 font-bold">강둑 송년회</p>
               </div>
             </div>
             <nav className="hidden md:flex space-x-1">

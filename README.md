@@ -1,10 +1,10 @@
-# 오산고 71회 송년회 웹사이트
+# 강둑 송년회 웹사이트
 
 <div align="center">
 
-![오산고 71회 송년회](https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop)
+![강둑 송년회](https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop)
 
-**2025년 오산고 71회 송년회 공식 웹사이트**
+**2025년 강둑 송년회 공식 웹사이트**
 
 [![Next.js](https://img.shields.io/badge/Next.js-16.0.4-black)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.2.0-blue)](https://reactjs.org/)
@@ -20,7 +20,7 @@
 
 ## 📋 프로젝트 개요
 
-오산고 71회 송년회 웹사이트는 2025년 오산고 동기들의 특별한 송년회를 위한 종합 디지털 플랫폼입니다. 현대적인 웹 기술을 활용하여 참석자들이 편리하게 정보를 확인하고 소통할 수 있는 환경을 제공합니다.
+강둑 송년회 웹사이트는 2025년 강둑 동기들의 특별한 송년회를 위한 종합 디지털 플랫폼입니다. 현대적인 웹 기술을 활용하여 참석자들이 편리하게 정보를 확인하고 소통할 수 있는 환경을 제공합니다.
 
 ### 🎯 주요 목표
 - **디지털 초대장**: QR코드와 함께하는 현대적인 초대장 시스템
@@ -152,14 +152,14 @@ grok_project_30/
 ```typescript
 export const siteConfig = {
   // 사이트 기본 정보
-  siteName: "2025년 오산고 71회 송년회",
+  siteName: "2025년 강둑 송년회",
   shortName: "오산고71",
 
   // 이벤트 정보
   eventYear: 2025,
   eventCount: "71회",
-  eventDate: "2025.11.29(토) 14:00 ~",
-  eventLocation: "서울대입구역 꼬꼬닭갈비",
+  eventDate: "2025.12.10(수) 14:00 ~",
+  eventLocation: "사당역 10번 출구 제키당구클럽",
 
   // 참석비 및 계좌 정보
   eventFee: "무료",
@@ -183,7 +183,7 @@ export const siteConfig = {
   members: [...],             // 참석자 목록
 
   // 초대장 설정
-  invitationTitle: "오산고 71회 송년회 초대장",
+  invitationTitle: "강둑 송년회 초대장",
   invitationMessage: "...",
   invitationImage: "..."
 };
@@ -408,7 +408,7 @@ npm run build
 
 이 프로젝트는 오산고 동기들의 소중한 추억을 위해 만들어졌습니다. 참여해주신 모든 분들께 감사드립니다.
 
-**오산고 71회 송년회** - 함께하는 특별한 시간 ✨
+**강둑 송년회** - 함께하는 특별한 시간 ✨
 
 ---
 
