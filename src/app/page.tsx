@@ -39,49 +39,6 @@ export default function Home() {
       </div>
 
       <div className="relative z-10">
-        {/* Premium Header */}
-        <header className="py-6 lg:py-8 px-6 relative">
-          <div className="absolute inset-0 bg-gradient-to-r from-white/5 to-transparent backdrop-blur-sm"></div>
-          <div className="max-w-7xl mx-auto flex justify-between items-center relative">
-            <div className="flex items-center space-x-3 lg:space-x-4 group">
-              <div className="w-12 h-12 lg:w-16 lg:h-16 rounded-2xl flex items-center justify-center shadow-2xl overflow-hidden bg-gradient-to-br from-white/20 to-white/5 border border-white/20 group-hover:scale-110 transition-all duration-500">
-                <Image
-                  src="/baikal_logo.png"
-                  alt="강둑 로고"
-                  width={64}
-                  height={64}
-                  className="w-full h-full object-contain group-hover:scale-110 transition-transform duration-500"
-                />
-              </div>
-              <div className="group-hover:translate-x-1 transition-transform duration-300">
-                <h1 className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent leading-tight drop-shadow-lg">
-                  강둑
-                </h1>
-                <p className="text-xs lg:text-sm text-purple-200 font-medium opacity-90">송년회</p>
-              </div>
-            </div>
-            <nav className="hidden md:flex space-x-2">
-              {[
-                { href: '/invitation', label: '초대장', icon: Star },
-                { href: '/attendance', label: '출석', icon: Users },
-                { href: '/gallery', label: '갤러리', icon: Camera },
-                { href: '/guestbook', label: '방명록', icon: MessageSquare },
-                { href: '/event', label: '행사정보', icon: Calendar },
-              ].map(({ href, label, icon: Icon }) => (
-                <Link key={href} href={href}>
-                  <Button
-                    variant="ghost"
-                    className="text-white/80 hover:text-white hover:bg-gradient-to-r hover:from-white/20 hover:to-white/10 backdrop-blur-sm transition-all duration-500 transform hover:scale-105 hover:shadow-xl border border-transparent hover:border-white/20 text-sm lg:text-base px-3 lg:px-4"
-                  >
-                    <Icon className="h-3 w-3 lg:h-4 lg:w-4 mr-1 lg:mr-2" />
-                    {label}
-                  </Button>
-                </Link>
-              ))}
-            </nav>
-          </div>
-        </header>
-
         {/* Premium Hero Section */}
         <section className="py-16 lg:py-24 px-6 relative">
           <div className="max-w-7xl mx-auto">
