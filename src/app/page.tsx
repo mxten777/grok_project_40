@@ -95,8 +95,11 @@ export default function Home() {
                     <span className="text-sm font-bold text-white">강둑 송년회</span>
                   </div>
                   <h2 className="text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-white via-purple-200 to-yellow-200 bg-clip-text text-transparent leading-tight animate-pulse">
-                    2025년 강둑 송년회
+                    2025년
                   </h2>
+                  <span className="text-5xl lg:text-6xl xl:text-7xl font-black bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
+                    강둑송년회
+                  </span>
                   <p className="text-lg lg:text-xl xl:text-2xl text-gray-200 leading-relaxed font-light">
                     오랜만에 동기들을 만나 함께 추억을 나누고<br />
                     <span className="text-purple-200 font-medium">새로운 인연을 만들어보는 소중한 시간</span>
